@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysqldb-env-config
+data:
+  DB_HOST: example.mysqldb.rds
+  DB_USER: rds_user
+  DB_PASS: rds_password
